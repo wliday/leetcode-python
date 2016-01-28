@@ -6,7 +6,7 @@ class Solution(object):
 		dummy.next = head
 		slow = fast = dummy
 
-		for x in range(n + 1:
+		for x in range(n + 1):
 			fast = fast.next
 
 		while fast:
